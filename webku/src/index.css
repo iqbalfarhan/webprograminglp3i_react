@@ -1,0 +1,50 @@
+:root {
+    --light: #fffae6;
+    --dark: #151515;
+}
+
+html {
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: monospace;
+    font-size: 16pt;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: var(--light);
+    color: var(--dark);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav h2 {
+    display: inline;
+}
+
+nav a {
+    color: var(--dark);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover,
+nav a.active {
+    background: var(--dark);
+    color: var(--light);
+}
+
+.container {
+    width: 1000px;
+    margin: 34px auto;
+}

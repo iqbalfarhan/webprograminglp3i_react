@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-slate-900 text-slate-50;
+  }
+}
+
+nav a.active {
+  @apply text-red-600 font-bold;
+}
